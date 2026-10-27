@@ -13,9 +13,7 @@ Una composición gráfica generativa creada con Processing que transforma ondas 
 
 ## Cómo funciona
 
-La composición se genera mediante código en Processing. Cada punto ocupa una posición horizontal determinada y su posición vertical se calcula a partir de funciones sinusoidales. La combinación de estas funciones produce las ondas, mientras que las variaciones de tamaño y los desplazamientos aleatorios introducen distorsiones en el patrón.
-
-La animación se actualiza continuamente, por lo que la composición cambia con el tiempo sin necesidad de intervención del usuario.
+La composición se con código en Processing. Los puntos se distribuyen a lo largo del lienzo y siguen el movimiento de varias ondas creadas con las funciones seno y coseno. Los cambios de tamaño y los desplazamientos aleatorios generan distorsiones y hacen que las ondas tengan un aspecto más irregular.
 
 ## Parámetros modificables
 
