@@ -1,7 +1,6 @@
 # Visuals-to-Disseny-en-Moviment
-# Signal Waves · v0.1
 
-Una composición gráfica generativa creada con Processing que transforma ondas sinusoidales en patrones de puntos en movimiento. A través de la variación del tamaño, la posición y la distribución de los puntos, la pieza explora la relación entre las ondas y las interferencias visuales.
+Una composición gráfica generativa creada con Processing que transforma ondas realizadas con seno y coseno en patrones de puntos en movimiento. A través de la variación del tamaño, la posición y la distribución de los puntos, la pieza explora la relación entre las ondas y las interferencias visuales.
 
 ## Qué hace
 
@@ -30,3 +29,15 @@ Lienzo vertical de 1080 × 1920 px, con fondo negro y puntos blancos.
 ## Herramientas
 
 Processing · Código generativo · Animación gráfica
+
+### Referentes de código
+
+**Sine Wave · Processing**  
+https://processing.org/examples/sinewave.html
+
+Referencia para la creación de ondas sinusoidales mediante la función `sin()`, tomando como base su estructura y movimiento para generar las ondas de la composición.
+
+**Distance 2D · Processing**  
+https://processing.org/examples/distance2d.html
+
+Referencia para trabajar con una retícula de puntos cuyo tamaño varía en función de la distancia. Esta lógica sirve como punto de partida para explorar variaciones en el tamaño de los puntos y su relación con las ondas.
